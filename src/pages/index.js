@@ -9,7 +9,7 @@ import {PopupWithForm} from '../components/PopupWithForm.js';
 import {PopupWithImage} from '../components/PopupWithImage.js';
 import {PopupWithConfirmation} from '../components/PopupWithConfirmation.js';
 import {UserInfo} from '../components/UserInfo.js';
-import {Api} from '../components/Api';
+import {Api} from '../utils/Api';
 
 const api = new Api(apiSettings);
 
